@@ -22,3 +22,8 @@ h3{
 .datocurioso{
     width: auto;
 }
+
+.container{
+    background-color: black;
+    color: white;
+}
