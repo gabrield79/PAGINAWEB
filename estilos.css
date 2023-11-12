@@ -27,3 +27,51 @@ h3{
     background-color: black;
     color: white;
 }
+
+.row{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+}
+
+.col{
+    flex-basis: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card,.overlay{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    border-radius: 23px;
+    background: rgb(10, 10, 10);
+    cursor: pointer;
+
+}
+
+.card{
+    background: #333;
+
+}
+
+.overlay{
+    background: #00a697;
+}
+
+.hola{
+    text-align: center;
+    margin: 10px 0;
+    color: #fff;
+    font-weight: 100;
+    z-index: 1;
+}
+
+magictime {
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+}

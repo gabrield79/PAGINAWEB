@@ -18,4 +18,22 @@
         <a href="traductor.html"><button CLASS="btn btn-success">Traductor</button></a>
         <a href="juegos.html"><button type="button" class="btn btn-warning">Juegos</button></a>
     </nav>
+    
+        <div class="row">
+            <div class="col">
+                <div class="card"></div>
+                <div class="overlay"></div>
+            </div>
+        </div>
+
+        <script>
+            const selector = document.querySelector('.overlay')
+            selector.onclick = function(){
+                selector.classList.add('magictime', 'foolishIn');
+                selTimeout(function(){
+                    selector.classList.remove('magictime', 'foolishIn');
+                }, 2000);
+            }
+        </script>
+
     </header>
