@@ -27,11 +27,27 @@
         </div>
 
         <script>
-            const selector = document.querySelector('.overlay')
-            selector.onclick = function(){
-                selector.classList.add('magictime', 'foolishIn');
+            const selector1 = document.querySelector('.overlay')
+            selector1.onclick = function(){
+                selector1.classList.add('magictime', 'foolishIn');
                 selTimeout(function(){
-                    selector.classList.remove('magictime', 'foolishIn');
+                    selector1.classList.remove('magictime', 'foolishIn');
+                }, 2000);
+            }
+        </script>
+         <div class="row1">
+            <div class="col1">
+                <div class="card1"></div>
+                <div class="overlay1"></div>
+            </div>
+        </div>
+
+        <script>
+            const selector = document.querySelector('.overlay1')
+            selector.onclick = function(){
+                selector.classList.add('magictime', 'twisterInUp');
+                selTimeout(function(){
+                    selector.classList.remove('magictime', 'twisterInUp');
                 }, 2000);
             }
         </script>
