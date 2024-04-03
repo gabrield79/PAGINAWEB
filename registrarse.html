@@ -22,3 +22,41 @@
             <a href="contactenos.html"><button type="button" class="btn btn-secondary">Contactenos</button></a>
     </nav>
     </header>
+</div>
+<form action="/action_bogsings">
+    <div class="mb-3 mt-3">
+      <label for="nombre" class="form-label">Nombre:</label>
+      <input type="nombre" class="form-control" id="nombre" placeholder="Ingrese su Nombre" name="nombre">
+    </div>
+    <div class="mb-3 mt-3">
+        <label for="apellido" class="form-label">Apellido:</label>
+        <input type="apellido" class="form-control" id="email" placeholder="Ingrese su Apellido" name="apellido">
+      </div>
+      <div class="mb-3 mt-3">
+        <label for="celular" class="form-label">celular:</label>
+        <input type="celular" class="form-control" id="email" placeholder="Ingrese su numero de celular" name="celular">
+      </div>
+      <div class="mb-3 mt-3">
+        <label for="email" class="form-label">Email:</label>
+        <input type="email" class="form-control" id="email" placeholder="Ingrese su email" name="email">
+      </div>
+    <div class="mb-3">
+      <label for="pwd" class="form-label">Contraseña:</label>
+      <input type="password" class="form-control" id="pwd" placeholder="Ingrese su contraseña" name="pswd">
+    </div>
+    <form action="/action_bogsings" class="was-validated">
+        <div class="mb-3 mt-3">
+          <label for="uname" class="form-label">Confirma tu Email:</label>
+          <input type="text" class="form-control" id="uname" placeholder="Confirma tu email" name="uname" required>
+          <div class="valid-feedback">Valid.</div>
+          <div class="invalid-feedback">Please fill out this field.</div>
+        </div>
+        <div class="mb-3">
+          <label for="pwd" class="form-label">Confirma tu contraseña:</label>
+          <input type="password" class="form-control" id="pwd" placeholder="Confirma tu contraseña" name="pswd" required>
+          <div class="valid-feedback">Valid.</div>
+          <div class="invalid-feedback">Please fill out this field.</div>
+        </div>
+    <button type="submit" class="btn btn-primary">Registrarse</button>
+  </form>
+</body>
