@@ -129,7 +129,7 @@
     <footer>
         <div class="container">
             <h3>INTEGRANTES</h3>
-            <p>Gabriel Lopez</p>
+            <p>EDWIN OSPINA</p>
           </div>
 
 
@@ -137,4 +137,5 @@
     </section>
 </body>
 <script src="main.js"></script>
+
 </html>
