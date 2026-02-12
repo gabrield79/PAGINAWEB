@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-  
+    <link rel="stylesheet" href="magic.min.css">
     <script
     src="js/bootstrap.bundle.min.js">
     </script>
@@ -139,6 +139,7 @@
 <script src="main.js"></script>
 
 </html>
+
 
 
 
